@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Jhansin\Elasticsearch;
 
-use App\Common\Util\Log;
 use Hyperf\Collection\Arr;
 use Hyperf\Collection\Collection;
 use stdClass;
@@ -516,7 +515,6 @@ class Builder
             $method = $methods[1];
             $client = $client->{$methods[0]}();
         }
-        Log::get('elasticsearch', 'db')->debug('Elasticsearch run', compact('method', 'parameters', 'sql'));
         return call([$client, $method], $parameters);
     }
 }
