@@ -1,0 +1,35 @@
+{
+  "name": "jhansin/elasticsearch",
+  "description": "ES客户端",
+  "require": {
+    "php": ">=8.3",
+    "hyperf/framework": "*",
+    "hyperf/utils": "*",
+    "elasticsearch/elasticsearch": "^7.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "authors": [
+    {
+      "name": "jhansin",
+      "email": "1688609@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jhansin\\Elasticsearch\\": "src/"
+    }
+  },
+  "extra": {
+    "hyperf": {
+      "config": "Jhansin\\Elasticsearch\\ConfigProvider"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  ]
+}
