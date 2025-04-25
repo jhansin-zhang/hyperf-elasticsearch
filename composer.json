@@ -16,6 +16,7 @@
       "email": "1688609@gmail.com"
     }
   ],
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Jhansin\\Elasticsearch\\": "src/"
