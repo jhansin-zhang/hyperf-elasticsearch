@@ -2,7 +2,7 @@
 
 ## 简介
 
-这是一个基于 Hyperf 框架的 Elasticsearch 客户端扩展包，提供了简单易用的 ORM 风格 API，让你在 PHP 项目中优雅地使用 Elasticsearch。
+这是一个基于 Hyperf 框架的 Elasticsearch 客户端扩展包，支持Hyperf3.0，提供了简单易用的 ORM 风格 API，让你在 PHP 项目中像使用数据库Model一样优雅地使用 Elasticsearch。
 
 ## 安装
 
