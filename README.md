@@ -1,4 +1,4 @@
-# ES客户端 - hyperf版本
+# ES客户端 - hyperf版本(支持3.0)
 
 ### Composer
 
