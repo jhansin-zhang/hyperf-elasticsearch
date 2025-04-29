@@ -515,7 +515,3 @@ try {
 
 有关更多高级功能和用法，请参考 Elasticsearch 官方文档：
 [https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
-
-## 许可证
-
-本项目采用 MIT 许可证，详情请查看 [LICENSE](LICENSE) 文件。
